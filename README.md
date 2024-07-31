@@ -2,11 +2,9 @@
 
 **公式**: 
 
-
 $$
 \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 $$
-
 
 - \(y_i\) 是真实值，\(\hat{y}_i\) 是预测值，\(n\) 是样本数量。
 
@@ -28,11 +26,10 @@ $$
 
 **公式**: 
 
-```markdown
 $$
 \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
 $$
-```
+
 
 - \(y_i\) 是真实值，\(\hat{y}_i\) 是预测值，\(n\) 是样本数量。
 
@@ -54,11 +51,11 @@ $$
 
 **公式**:
 
-```markdown
+
 $$
 \text{KL}(P \parallel Q) = \sum_{i=1}^{n} P(x_i) \log\left(\frac{P(x_i)}{Q(x_i)}\right)
 $$
-```
+
 
 - \(P(x_i)\) 和 \(Q(x_i)\) 是两个概率分布。
 - 该公式用于衡量两个概率分布 \(P\) 和 \(Q\) 之间的差异。
@@ -81,11 +78,10 @@ $$
 
 **公式**:
 
-```markdown
 $$
 \text{Focal Loss} = -\alpha_t (1 - \hat{p}_t)^\gamma \log(\hat{p}_t)
 $$
-```
+
 
 - \(\alpha_t\) 是类别的权重因子。
 - \(\hat{p}_t\) 是模型对类别的预测概率。
@@ -109,11 +105,11 @@ $$
 
 **公式**:
 
-```markdown
+
 $$
 \text{IOU Loss} = 1 - \frac{|A \cap B|}{|A \cup B|}
 $$
-```
+
 
 - \(|A \cap B|\) 是预测框与真实框的交集面积。
 - \(|A \cup B|\) 是预测框与真实框的并集面积。
